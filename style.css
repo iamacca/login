@@ -1,0 +1,92 @@
+h2 {
+  color: #fff;
+}
+
+p {
+  color: #fff;
+  font-size: 12px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  margin-left: 130px;
+}
+
+span {
+  color: #fff;
+  font-size: 12px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+label {
+  color: #fff;
+  margin-left: 6px;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+.top-bar {
+  height: 300px;
+  width: 381px;
+  border-radius: 10px 0 0 10px;
+  background: radial-gradient(circle, #414345 0%, #232526 100%);
+  box-shadow: 0 1px 5px 0 rgba(0,0,0,0.12), 0 2px 2px 0 rgba(0,0,0,0.14);
+  transform: translateY(15%);
+}
+
+.area {
+  height: 387px;
+  width: 319px;
+  border-radius: 10px;
+  background-color: #232526;
+  box-shadow: 0 1px 5px 0 rgba(0,0,0,0.12), 0 2px 2px 0 rgba(0,0,0,0.14);
+}
+
+.netflix-logo {
+  width: 50%;
+  display: block;
+  margin-top: 32%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.button {
+  height: 39px;
+  width: 271px;
+  border-radius: 10px;
+  background-color: #232526;
+  box-shadow: 4px 4px 8px 0 #191A1B, -4px -4px 8px 0 #2D3031;
+  color: #fff;
+  border: none;
+}
+
+.input {
+  height: 42px;
+  width: 259px;
+  padding-left: 12px;
+  border-radius: 4px;
+  background-color: #232526;
+  box-shadow: inset 4px 4px 8px 0 #191A1B, inset -4px -4px 8px 0 #2D3031;
+  color: #fff;
+  margin-bottom: 24px;
+  border: none;
+}
+
+.form {
+  margin-top: 24px;
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+.checkbox {
+  height: 16px;
+  width: 16px;
+  border-radius: 1px;
+  background-color: #191A1B;
+  box-shadow: inset 2px 2px 2px 0 #191A1B, inset -2px -2px 2px 0 #2D3031;
+  border: none;
+  margin-bottom: 24px;
+}
