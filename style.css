@@ -4,7 +4,6 @@ h2 {
   font-family: "Raleway", sans-serif;
   color: #fff;
   font-size: 25px;
-  line-height: 0%;
 }
 
 p {
@@ -16,47 +15,43 @@ p {
 input {
   padding-left: 12px;
 }
-/*
-form {
+
+
+body {
   display: flex;
-  align-items: center;
   justify-content: center;
 }
-*/
 
 .box-logo {
-  width: 50%;
+  width: 381px;
   height: 300px;
   border-radius: 10px 0 0 10px;
   background: radial-gradient(circle, #414345 0%, #232526 100%);
   box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 2px 2px 0 rgba(0, 0, 0, 0.14);
   transition: all 2s ease;
-  float: left;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding-left: 0px;
+  position: absolute;
+  top: 150px;
+  left:290px;
 }
 
 .box-logo-header {
   height: 44px;
-  width: 95vw;
-  border-radius: 10px;
+  width: 100vw;
+  border-radius: 0px;
   background: radial-gradient(circle, #232526 0%, #232526 100%);
   box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 2px 2px 0 rgba(0, 0, 0, 0.14);
-  display: flex;
-  float: center;
-  align-items: center;
-  justify-content: center;
-  padding-left: 12px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 10;
 }
 
 .netflix-logo {
   width: 275px;
   height: 90px;
-  /*margin-top: 110px;
+  margin-top: 110px;
   margin-left: 53px;
-  margin-right: 53px;*/
+  margin-right: 53px;
   transition: all 2s ease;
   object-fit: contain;
 }
@@ -64,48 +59,82 @@ form {
 .netflix-logo-header {
   width: 50px;
   height: 20px;
-  /*margin-top: 12px;
+  margin-top: 12px;
   margin-left: 12px;
-  margin-right: auto;*/
+  margin-right: auto;
 }
 
 .background-login {
-  height: 344px;
-  width: 50%;
+  width: 319px;
+  height: 373px;
   border-radius: 10px;
   background-color: #232526;
   box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 2px 2px 0 rgba(0, 0, 0, 0.14);
+  position: absolute;
+  top: 114px;
+  left: 671px;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  flex-direction: column;
+  align-items: stretch;
+  transition: all 2s ease;
+}
+
+.background-login-full {
+  width: 100vw;
+  height: 100vw;
+  border-radius: 0px;
+  background-color: #232526;
+  box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0), 0 2px 2px 0 rgba(0, 0, 0, 0);
+  position: absolute;
+  top: 40px;
+  left: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.login-title {
+  margin-left: 24px;
+}
+
+.login-form {
+  align-content: center;
+  display: flex;
+  flex-direction: column;
+  opacity: 1;
+  transition: all 2s ease;
+}
+
+.login-form-full {
+  align-content: center;
+  display: flex;
+  flex-direction: column;
+  opacity: 0;
 }
 
 #login,
 #signup {
   height: 39px;
-  width: 271px;
   border-radius: 10px;
   background-color: #232526;
   box-shadow: 4px 4px 8px 0 #191a1b, -4px -4px 8px 0 #2d3031;
   color: #fff;
   border: none;
-  margin-top: 12px;
-  margin-bottom: 12px;
+  margin: 0 24px 0 24px;
 }
 
 #user,
 #psw {
   height: 42px;
-  width: 259px;
   border-radius: 4px;
   background-color: #232526;
   box-shadow: inset 4px 4px 8px 0 #191a1b, inset -4px -4px 8px 0 #2d3031;
   color: #fff;
   border: none;
   margin-bottom: 24px;
+  margin: 0 24px 24px 24px;
 }
 
 #login-choice {
-  position: relative;
-  left: 130px;
+ text-align: center;
 }
