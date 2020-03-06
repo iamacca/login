@@ -35,15 +35,14 @@ body {
 }
 
 .box-logo-header {
-  height: 44px;
   width: 100vw;
+  height: 44px;
   border-radius: 0px;
   background: radial-gradient(circle, #232526 0%, #232526 100%);
   box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 2px 2px 0 rgba(0, 0, 0, 0.14);
   position: absolute;
   top: 0px;
   left: 0px;
-  z-index: 10;
 }
 
 .netflix-logo {
@@ -81,16 +80,15 @@ body {
 
 .background-login-full {
   width: 100vw;
-  height: 100vw;
+  height: 100vh;
   border-radius: 0px;
   background-color: #232526;
   box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0), 0 2px 2px 0 rgba(0, 0, 0, 0);
   position: absolute;
-  top: 40px;
+  top: 0px;
   left: 0px;
   display: flex;
-  flex-direction: column;
-  align-items: stretch;
+  flex-direction: row;
 }
 
 .login-title {
@@ -106,10 +104,7 @@ body {
 }
 
 .login-form-full {
-  align-content: center;
-  display: flex;
-  flex-direction: column;
-  opacity: 0;
+  display: none;
 }
 
 #login,
@@ -137,4 +132,65 @@ body {
 
 #login-choice {
  text-align: center;
+}
+
+.select-user-hidden {
+  opacity: 0;
+  display: none;
+  transition: all 2s ease;
+}
+
+.select-user {
+  opacity: 1;
+  display: initial;
+  align-content: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 215px;
+  left: 454px;
+  align-items: center;
+}
+
+.user-pic-container {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 24px;
+}
+
+.user-pic-start {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  background-color: #232526;
+  box-shadow: 4px 4px 8px 0 #191A1B, -4px -4px 8px 0 #2D3031;
+}
+
+.user-pic-center {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  background-color: #232526;
+  box-shadow: 4px 4px 8px 0 #191A1B, -4px -4px 8px 0 #2D3031;
+  margin: 0 24px 0 24px;
+}
+
+.user-pic-end {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  background-color: #232526;
+  box-shadow: 4px 4px 8px 0 #191A1B, -4px -4px 8px 0 #2D3031;
+}
+
+#logout {
+  width: 148px;
+  height: 39px;
+  border-radius: 10px;
+  background-color: #232526;
+  box-shadow: 4px 4px 8px 0 #191a1b, -4px -4px 8px 0 #2d3031;
+  color: #fff;
+  border: none;
+  margin: 0 0px 0 0px;
 }
